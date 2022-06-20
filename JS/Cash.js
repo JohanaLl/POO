@@ -5,6 +5,7 @@ class Cash extends Payment {
     }
 
     printDataPayment() {
+        super.printDataPayment()
         console.log("payment: Cash")
     }
 }

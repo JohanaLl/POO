@@ -6,7 +6,8 @@ class PayPal extends Payment {
     }
 
     printDataPayment() {
-        console.log("payment: PayPal")
+        super.printDataPayment()
+        console.log("PayPal")
         console.log("email: ", this.email)
     }
 }

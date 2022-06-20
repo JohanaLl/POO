@@ -10,4 +10,12 @@ public class UberX extends Car{
         this.brand = brand;
         this.model = model;
     }
+
+    //Polimorfismo
+    @Override
+    void printDataCar() {
+        super.printDataCar();
+        System.out.println("Model: " + brand + " Brand: " + brand );
+
+    }
 }

@@ -5,6 +5,6 @@ class Payment {
     }
  
     printDataPayment() {
-        console.log("payment: ")
+        console.log("Forma de pago: ")
     }
 }
